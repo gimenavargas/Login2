@@ -26,5 +26,17 @@ namespace Login2
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario2
+            registro registro = new registro();
+
+            // Mostrar el formulario2
+            registro.Show();
+
+            // Cerrar el formulario1
+            this.Hide();
+        }
     }
 }

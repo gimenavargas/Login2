@@ -98,5 +98,14 @@
   <ItemGroup>
     <None Include="Resources\sticker-png-icon-login-password-user-lock-and-key-share-icon-security-blue-padlock.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-login-person-user-avatar-log-smiley-desktop-wallpaper-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
