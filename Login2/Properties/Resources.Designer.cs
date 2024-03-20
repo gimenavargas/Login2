@@ -83,6 +83,16 @@ namespace Login2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_clipart_computer_icons_management_business_school_login_business_company_people {
             get {
                 object obj = ResourceManager.GetObject("png-clipart-computer-icons-management-business-school-login-business-company-peop" +
