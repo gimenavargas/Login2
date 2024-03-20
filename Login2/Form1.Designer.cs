@@ -158,6 +158,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Login2.Properties.Resources.png_clipart_computer_icons_management_business_school_login_business_company_people;
             this.pictureBox1.Location = new System.Drawing.Point(127, 94);
             this.pictureBox1.Name = "pictureBox1";
@@ -165,7 +166,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.UseWaitCursor = true;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1

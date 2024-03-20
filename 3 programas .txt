@@ -1,0 +1,10 @@
+3 programas 
+sql 2022-ssei-dev ---> motor 
+sql server configuration manager ---> motor
+microsoft SQL Server Management Studio --> interfaz grafica
+
+***** abrir terminal de cmd ******
+"sqllocaldb create senati"
+
+***** en el servername ******
+(localdb) \senati
