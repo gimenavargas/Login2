@@ -38,5 +38,15 @@ namespace Login2
             // Cerrar el formulario1
             this.Hide();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox5.UseSystemPasswordChar = !checkBox1.Checked;
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

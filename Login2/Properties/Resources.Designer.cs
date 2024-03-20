@@ -83,6 +83,36 @@ namespace Login2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hide_icon_148530 {
+            get {
+                object obj = ResourceManager.GetObject("hide_icon_148530", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hide_icon_1485301 {
+            get {
+                object obj = ResourceManager.GetObject("hide_icon_1485301", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hide_icon_1485302 {
+            get {
+                object obj = ResourceManager.GetObject("hide_icon_1485302", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);
@@ -108,6 +138,16 @@ namespace Login2.Properties {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-computer-icons-login-person-user-avatar-log-smiley-desktop-wallpa" +
                         "per-sign", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_eye_eyeball_hide_interface_secret_revamp_icon_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-eye-eyeball-hide-interface-secret-revamp-icon-thumbnail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
