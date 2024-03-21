@@ -118,11 +118,68 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="descarga (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="png-clipart-computer-icons-management-business-school-login-business-company-people" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-clipart-computer-icons-management-business-school-login-business-company-people.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a0260570_11185792" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a0260570_11185792.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hide_icon_1485302" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hide_icon_1485302.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbeab08ba8392bf617353cb8b310d079_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbeab08ba8392bf617353cb8b310d079_l.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mariposa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mariposa.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Butterfly_o_Mariposa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Butterfly_o_Mariposa.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4e8da3965fd1524de38306994e3929b8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4e8da3965fd1524de38306994e3929b8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hide_icon_1485301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hide_icon_1485301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ai-generated-bold-color-dynamic-background-photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ai-generated-bold-color-dynamic-background-photo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="butterfly-animation-36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\butterfly-animation-36.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-eye-eyeball-hide-interface-secret-revamp-icon-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-eye-eyeball-hide-interface-secret-revamp-icon-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_636731584_8UtZ1UkL5EH3Y2GAMhmlJSuo92Nb1RR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_636731584_8UtZ1UkL5EH3Y2GAMhmlJSuo92Nb1RR1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-sun-flower-and-cute-pattern-picture-image_1911273" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-sun-flower-and-cute-pattern-picture-image_1911273.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-art-cute-love-wallpaper-image_7218621" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-art-cute-love-wallpaper-image_7218621.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hide_icon_148530" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hide_icon_148530.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mariposa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mariposa1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-computer-icons-login-person-user-avatar-log-smiley-desktop-wallpaper-sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-computer-icons-login-person-user-avatar-log-smiley-desktop-wallpaper-sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1898626_07736" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1898626_07736.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-art-cute-love-wallpaper-image_721862" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-art-cute-love-wallpaper-image_721862.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sticker-png-icon-login-password-user-lock-and-key-share-icon-security-blue-padlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sticker-png-icon-login-password-user-lock-and-key-share-icon-security-blue-padlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,22 +187,10 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hide_icon_148530" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hide_icon_148530.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ai-generated-bold-color-dynamic-background-photo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ai-generated-bold-color-dynamic-background-photo (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="png-transparent-computer-icons-login-person-user-avatar-log-smiley-desktop-wallpaper-sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\png-transparent-computer-icons-login-person-user-avatar-log-smiley-desktop-wallpaper-sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="descarga (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="png-clipart-computer-icons-management-business-school-login-business-company-people" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\png-clipart-computer-icons-management-business-school-login-business-company-people.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hide_icon_1485301" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hide_icon_1485301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="png-transparent-eye-eyeball-hide-interface-secret-revamp-icon-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\png-transparent-eye-eyeball-hide-interface-secret-revamp-icon-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngtree-art-cute-love-wallpaper-image_7218622" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-art-cute-love-wallpaper-image_7218622.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -63,6 +63,96 @@ namespace Login2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1898626_07736 {
+            get {
+                object obj = ResourceManager.GetObject("1898626_07736", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _360_F_636731584_8UtZ1UkL5EH3Y2GAMhmlJSuo92Nb1RR1 {
+            get {
+                object obj = ResourceManager.GetObject("360_F_636731584_8UtZ1UkL5EH3Y2GAMhmlJSuo92Nb1RR1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4e8da3965fd1524de38306994e3929b8 {
+            get {
+                object obj = ResourceManager.GetObject("4e8da3965fd1524de38306994e3929b8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a0260570_11185792 {
+            get {
+                object obj = ResourceManager.GetObject("a0260570_11185792", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ai_generated_bold_color_dynamic_background_photo {
+            get {
+                object obj = ResourceManager.GetObject("ai-generated-bold-color-dynamic-background-photo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ai_generated_bold_color_dynamic_background_photo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("ai-generated-bold-color-dynamic-background-photo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bbeab08ba8392bf617353cb8b310d079_l {
+            get {
+                object obj = ResourceManager.GetObject("bbeab08ba8392bf617353cb8b310d079_l", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap butterfly_animation_36 {
+            get {
+                object obj = ResourceManager.GetObject("butterfly-animation-36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Butterfly_o_Mariposa {
+            get {
+                object obj = ResourceManager.GetObject("Butterfly_o_Mariposa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap descarga__1_ {
             get {
                 object obj = ResourceManager.GetObject("descarga (1)", resourceCulture);
@@ -123,6 +213,26 @@ namespace Login2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mariposa {
+            get {
+                object obj = ResourceManager.GetObject("mariposa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mariposa1 {
+            get {
+                object obj = ResourceManager.GetObject("mariposa1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_clipart_computer_icons_management_business_school_login_business_company_people {
             get {
                 object obj = ResourceManager.GetObject("png-clipart-computer-icons-management-business-school-login-business-company-peop" +
@@ -148,6 +258,46 @@ namespace Login2.Properties {
         internal static System.Drawing.Bitmap png_transparent_eye_eyeball_hide_interface_secret_revamp_icon_thumbnail {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-eye-eyeball-hide-interface-secret-revamp-icon-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_art_cute_love_wallpaper_image_721862 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-art-cute-love-wallpaper-image_721862", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_art_cute_love_wallpaper_image_7218621 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-art-cute-love-wallpaper-image_7218621", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_art_cute_love_wallpaper_image_7218622 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-art-cute-love-wallpaper-image_7218622", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_sun_flower_and_cute_pattern_picture_image_1911273 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-sun-flower-and-cute-pattern-picture-image_1911273", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

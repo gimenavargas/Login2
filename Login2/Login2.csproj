@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="pagInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pagInicio.Designer.cs">
+      <DependentUpon>pagInicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="registro.cs">
@@ -62,6 +68,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pagInicio.resx">
+      <DependentUpon>pagInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,6 +127,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\png-transparent-eye-eyeball-hide-interface-secret-revamp-icon-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-sun-flower-and-cute-pattern-picture-image_1911273.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4e8da3965fd1524de38306994e3929b8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbeab08ba8392bf617353cb8b310d079_l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a0260570_11185792.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ai-generated-bold-color-dynamic-background-photo %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ai-generated-bold-color-dynamic-background-photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_636731584_8UtZ1UkL5EH3Y2GAMhmlJSuo92Nb1RR1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Butterfly_o_Mariposa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mariposa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butterfly-animation-36.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mariposa1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1898626_07736.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-art-cute-love-wallpaper-image_721862.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-art-cute-love-wallpaper-image_7218621.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-art-cute-love-wallpaper-image_7218622.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
