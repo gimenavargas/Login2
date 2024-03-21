@@ -173,6 +173,16 @@ namespace Login2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descarga__9_ {
+            get {
+                object obj = ResourceManager.GetObject("descarga (9)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hide_icon_148530 {
             get {
                 object obj = ResourceManager.GetObject("hide_icon_148530", resourceCulture);

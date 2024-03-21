@@ -61,10 +61,12 @@ namespace Login2
             string correo = txtCorreo.Text;
             string contraseña = txtContraseña.Text;
             string confirmarContraseña = txtConfirmarContraseña.Text;
+            string pregunta_seguridad = textBox5.Text;
 
             // Verificar si algún campo está vacío
             if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(correo) ||
-                string.IsNullOrWhiteSpace(contraseña) || string.IsNullOrWhiteSpace(confirmarContraseña))
+                string.IsNullOrWhiteSpace(contraseña) || string.IsNullOrWhiteSpace(confirmarContraseña)||
+                string.IsNullOrWhiteSpace(pregunta_seguridad))
             {
                 MessageBox.Show("Por favor, completa todos los campos antes de registrar la información.");
                 return; // Salir del método sin continuar con el proceso de guardado
@@ -122,7 +124,7 @@ namespace Login2
                         command.Parameters.AddWithValue("@correo", correo);
                         command.Parameters.AddWithValue("@contraseña", contraseña);
                         command.Parameters.AddWithValue("@confirmarContraseña", confirmarContraseña);
-
+                        command.Parameters.AddWithValue("@pregunta_seguridad", pregunta_seguridad);
                         // Ejecutar la consulta
                         command.ExecuteNonQuery();
 
@@ -151,6 +153,11 @@ namespace Login2
         }
 
         private void txtCorreo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -8,7 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Microsoft.VisualBasic;
+using System.Net.Mail;
+using System.Net;
 namespace Login2
 {
     public partial class Form1 : Form
@@ -101,5 +103,20 @@ namespace Login2
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Crear una instancia del formulario2
+            Form2 Form2 = new Form2();
+
+            // Mostrar el formulario2
+            Form2.Show();
+
+            // Cerrar el formulario1
+            this.Hide();
+        }
+       
+        
+        
     }
 }

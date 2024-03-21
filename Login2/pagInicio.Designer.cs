@@ -54,7 +54,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel1.Location = new System.Drawing.Point(1, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1114, 630);
+            this.panel1.Size = new System.Drawing.Size(1122, 630);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -106,7 +106,7 @@
             this.pictureBox3.Image = global::Login2.Properties.Resources._1898626_07736;
             this.pictureBox3.Location = new System.Drawing.Point(212, 25);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(704, 595);
+            this.pictureBox3.Size = new System.Drawing.Size(713, 600);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
