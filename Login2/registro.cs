@@ -62,6 +62,13 @@ namespace Login2
             string contraseña = txtContraseña.Text;
             string confirmarContraseña = txtConfirmarContraseña.Text;
 
+            // Verificar si algún campo está vacío
+            if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(correo) ||
+                string.IsNullOrWhiteSpace(contraseña) || string.IsNullOrWhiteSpace(confirmarContraseña))
+            {
+                MessageBox.Show("Por favor, completa todos los campos antes de registrar la información.");
+                return; // Salir del método sin continuar con el proceso de guardado
+            }
 
             // Verificar si el correo electrónico tiene el formato correcto
             string emailPattern = @"^[a-zA-Z0-9.]+@[a-zA-Z0-9.-].[a-zA-Z]{2,}";

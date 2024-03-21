@@ -35,5 +35,10 @@ namespace Login2
             Form1 Form1 = new Form1();
             Form1.Show();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

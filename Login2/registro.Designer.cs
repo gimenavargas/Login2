@@ -62,6 +62,7 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.LightSalmon;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(110, 16);
             this.textBox1.Name = "textBox1";

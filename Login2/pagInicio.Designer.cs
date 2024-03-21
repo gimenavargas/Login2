@@ -50,10 +50,12 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel1.Location = new System.Drawing.Point(1, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1114, 630);
-            this.panel1.TabIndex = 4;
+            this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pictureBox1
@@ -63,7 +65,7 @@
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.Image = global::Login2.Properties.Resources.Butterfly_o_Mariposa;
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(30, 63);
+            this.pictureBox1.Location = new System.Drawing.Point(212, 25);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(176, 154);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -74,7 +76,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Login2.Properties.Resources.butterfly_animation_36;
-            this.pictureBox2.Location = new System.Drawing.Point(922, 463);
+            this.pictureBox2.Location = new System.Drawing.Point(735, 464);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(181, 156);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -83,8 +85,9 @@
             // 
             // textBox1
             // 
+            this.textBox1.AcceptsReturn = true;
             this.textBox1.BackColor = System.Drawing.Color.LightCoral;
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.No;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBox1.Font = new System.Drawing.Font("Old English Text MT", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.textBox1.Location = new System.Drawing.Point(296, 260);
@@ -92,13 +95,14 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(589, 85);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Welcome to my pag";
+            this.textBox1.Text = "Welcome to my pag \r\n";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.MistyRose;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox3.Image = global::Login2.Properties.Resources._1898626_07736;
             this.pictureBox3.Location = new System.Drawing.Point(212, 25);
             this.pictureBox3.Name = "pictureBox3";
@@ -110,10 +114,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(519, 555);
+            this.button1.Location = new System.Drawing.Point(365, 554);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 41);
-            this.button1.TabIndex = 4;
+            this.button1.Size = new System.Drawing.Size(120, 40);
+            this.button1.TabIndex = 2;
             this.button1.Text = "SALIR";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
