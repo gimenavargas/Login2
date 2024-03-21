@@ -43,7 +43,7 @@ namespace Login2
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            txtcontraseña.UseSystemPasswordChar = !checkBox1.Checked;
+            txtcontraseña.UseSystemPasswordChar = checkBox1.Checked;
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
@@ -79,13 +79,9 @@ namespace Login2
                             // Permitir el acceso a la siguiente ventana o funcionalidad de la aplicación
                             MessageBox.Show("Inicio de sesión exitoso");
                             // Aquí puedes abrir la siguiente ventana o realizar cualquier otra acción necesaria
-                            // Crear una instancia del formulario2
+                           
                             pagInicio pagInicio = new pagInicio();
-
-                            // Mostrar el formulario2
                             pagInicio.Show();
-
-                            // Cerrar el formulario1
                             this.Hide();
                         }
                         else
@@ -99,6 +95,11 @@ namespace Login2
                     }
                 }
             }
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
         }
     }
 }

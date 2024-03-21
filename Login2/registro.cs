@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -28,12 +29,12 @@ namespace Login2
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            txtContraseña.UseSystemPasswordChar = !checkBox1.Checked;
+            txtContraseña.UseSystemPasswordChar = checkBox1.Checked;
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            txtConfirmarContraseña.UseSystemPasswordChar = !checkBox2.Checked;
+            txtConfirmarContraseña.UseSystemPasswordChar = checkBox2.Checked;
         }
 
         private void textBox8_TextChanged(object sender, EventArgs e)
@@ -49,11 +50,51 @@ namespace Login2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Restaurar el color de fondo predeterminado de todos los campos de texto
+            txtNombre.BackColor = SystemColors.Window;
+            txtCorreo.BackColor = SystemColors.Window;
+            txtContraseña.BackColor = SystemColors.Window;
+            txtConfirmarContraseña.BackColor = SystemColors.Window;
+
             // Recoger los valores ingresados en el formulario
             string nombre = txtNombre.Text;
             string correo = txtCorreo.Text;
             string contraseña = txtContraseña.Text;
             string confirmarContraseña = txtConfirmarContraseña.Text;
+
+
+            // Verificar si el correo electrónico tiene el formato correcto
+            string emailPattern = @"^[a-zA-Z0-9.]+@[a-zA-Z0-9.-].[a-zA-Z]{2,}";
+            if (!Regex.IsMatch(correo, emailPattern))
+            {
+                MessageBox.Show("El correo electrónico no tiene un formato válido. Por favor, inténtalo de nuevo.");
+
+                // Establecer el color de fondo del campo de correo electrónico en rojo
+                txtCorreo.BackColor = Color.Red;
+                return; // Salir del método sin continuar con el proceso de guardado
+            }
+
+            // Verificar si la longitud de la contraseña es válida (entre 8 y 12 caracteres)
+            if (contraseña.Length < 6 || contraseña.Length > 10)
+            {
+                MessageBox.Show("La contraseña debe tener entre 6 y 10 caracteres. Por favor, inténtalo de nuevo.");
+
+                // Establecer el color de fondo del campo de contraseña en rojo
+                txtContraseña.BackColor = Color.Red;
+                return; // Salir del método sin continuar con el proceso de guardado
+            }
+
+            // Verificar si las contraseñas coinciden
+            if (contraseña != confirmarContraseña)
+            {
+                MessageBox.Show("Las contraseñas no coinciden. Por favor, inténtalo de nuevo.");
+
+                // Establecer el color de fondo de los campos de contraseña en rojo
+                txtContraseña.BackColor = Color.Red;
+                txtConfirmarContraseña.BackColor = Color.Red;
+                return; // Salir del método sin continuar con el proceso de guardado
+            }
+
 
             // Crear la conexión a la base de datos
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -88,6 +129,23 @@ namespace Login2
                     MessageBox.Show("Error al guardar los datos: " + ex.Message);
                 }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario2
+            Form1 Form1 = new Form1();
+
+            // Mostrar el formulario2
+            Form1.Show();
+
+            // Cerrar el formulario1
+            this.Hide();
+        }
+
+        private void txtCorreo_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

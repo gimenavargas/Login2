@@ -21,5 +21,19 @@ namespace Login2
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+            // Mostrar la ventana de inicio de sesión (si es necesario)
+            Form1 Form1 = new Form1();
+            Form1.Show();
+        }
     }
 }
